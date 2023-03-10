@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+
+@font-face {
+    font-family: 'Passion One';
+    src: url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+}
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Passion One', cursive;
+    font-weight: bolder;
+    font-size: 15vh;
+}
+
+header > p {
+    font-family: 'Verdana', cursive;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;    
+}
+
+section p {
+    font-family: 'Sriracha';
+    line-height: 225%;
+    font-size: 6vh;
+    padding: 30px;
+    font-weight: normal
+}
+
+section p#p2 {
+    background-image: url('imagens/background001.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 7px 0px #00000073;
+}
+
+section p#p5 {
+    background-image: url('imagens/background002.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 7px 0px #00000073;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    font-family: 'Verdana', 'cursive';
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
